@@ -70,3 +70,21 @@ Créez un jeu d’échecs hexagonal sur une table ronde en XR.
 
 Allons voir [Mirror](https://mirror-networking.com/?utm_source=chatgpt.com) qu’il sera utile d’étudier pour mener ce projet à bien.   
 
+
+
+
+----
+
+
+# Done during a hackathon
+
+- https://github.com/EloiStree/2023_03_25_unity_dev_vs_wild_chill_chess
+
+# Mirror tutorial:
+- https://www.youtube.com/watch?v=oKf_EAU-ct4&t=533s
+
+
+# Jeux de drone soccer
+
+- https://github.com/EloiStree/2024_06_01_HelloMirrorDroneMulti/blob/main/README.md
+- https://youtu.be/L_VJgbrHmzw
