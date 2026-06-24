@@ -11,6 +11,10 @@ Lors de la formation précédente, je vous ai montré comment charger une scène
 Comme vous êtes en fin de formation Unity avant votre atelier. 😉   
 <img width="498" height="283" alt="image" src="https://github.com/user-attachments/assets/4a3fc7a9-4cda-4189-a08e-34558c6d797f" />       
 
+
+[<img width="816" height="333" alt="image" src="https://github.com/user-attachments/assets/b2d2229c-e3c7-466f-98c0-abde62333ef2" />](https://sketchfab.com/3d-models/chess-scene-pieces-blender-218776bed6144332ab41417badd5df6b)     
+https://sketchfab.com/3d-models/chess-scene-pieces-blender-218776bed6144332ab41417badd5df6b    
+
 ## Checklist des étapes
 
 Faux clients: PreviewLabs a un client avec 4 casques Quest et demande de pouvoir jouer au echec hexagonal dans un barre a biere sur des tonneaux.
