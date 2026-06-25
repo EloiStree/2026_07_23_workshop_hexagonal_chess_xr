@@ -13,8 +13,10 @@ Notre but est de réaliser un jeu d’échecs hexagonal :
 [<img width="1221" height="646" alt="image" src="https://github.com/user-attachments/assets/ae302df2-ae91-4c79-8e6c-65ffe05fefaa" />](https://www.youtube.com/watch?v=NCeAVAVr2v4&t=102s)   
 https://www.youtube.com/watch?v=NCeAVAVr2v4&t=102s   
 
-Lors de la formation précédente, je vous ai montré comment charger une scène sur une table en XR avec Unity et Meta :   
-https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr   
+Lors de la formation précédente, je vous ai montré comment charger une scène sur une table en XR avec Unity et Meta :     
+[<img width="941" height="526" alt="image" src="https://github.com/user-attachments/assets/829aadb9-5ba5-406b-9f8f-bf90e0df89a0" />](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint)   
+Setup XR https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/InstallUnityForXR       
+Relocalisation: https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint      
 
 Comme Vincent m'a dit qu'il préférait les jeux sur table ronde, montrez-moi que vous avez compris le cours précédent 😉.   
 Créez un outil qui permet d’ajouter trois points donnés par l’utilisateur afin de positionner une table ronde en 3D.      
