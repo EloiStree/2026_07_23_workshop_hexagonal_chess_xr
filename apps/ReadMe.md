@@ -13,3 +13,4 @@
 
 - https://www.reddit.com/r/SteamDeck/comments/1di08mk/alvr_on_steam_deck_tutorial/
   - https://github.com/alvr-org/ALVR/releases/
+- https://www.youtube.com/watch?v=oIXki5SbWhc
