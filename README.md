@@ -3,7 +3,8 @@
 Bienvenue dans cet exercice VR, dans la continuité de la formation précédente.   
 Nous avons vu comment réaliser un projet avec Meta.   
 
-Mais comme nous sommes à l’aube des Steam Machines et des Steam Frames, regardons un peu du côté de SteamVR, OpenXR, ALVR et Steam Link.   
+Mais comme nous sommes à l’aube des Steam Machines et des Steam Frames,    
+regardons un peu du côté de SteamVR, OpenXR, ALVR et Steam Link.      
 
 ## Objectif
 
