@@ -7,3 +7,9 @@
   - https://www.meta.com/fr-fr/experiences/alvr/7674846229245715/
 - https://www.vrdesktop.net/
   - https://www.meta.com/fr-fr/experiences/virtual-desktop/2017050365004772/
+
+
+-----
+
+- https://www.reddit.com/r/SteamDeck/comments/1di08mk/alvr_on_steam_deck_tutorial/
+  - https://github.com/alvr-org/ALVR/releases/
