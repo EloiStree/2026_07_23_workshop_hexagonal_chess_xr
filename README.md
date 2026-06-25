@@ -18,15 +18,15 @@ Lors de la formation précédente, je vous ai montré comment charger une scène
 Setup XR https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/InstallUnityForXR       
 Relocalisation: https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint      
 
-Comme Vincent m'a dit qu'il préférait les jeux sur table ronde, montrez-moi que vous avez compris le cours précédent 😉.   
-Créez un outil qui permet d’ajouter trois points donnés par l’utilisateur afin de positionner une table ronde en 3D.      
-<img width="720" alt="image" src="https://github.com/user-attachments/assets/c9d387bd-ba71-4166-8c1e-76769b111f6b" />   
-<img width="720" alt="image" src="https://github.com/user-attachments/assets/4bc249ac-4ef2-46d8-9c12-c375a18695e3" />   
+Comme Vincent m'a dit qu'il préférait les jeux sur table ronde, montrez-moi que vous avez compris le cours précédent 😉.     
+Créez un outil qui permet d’ajouter trois points donnés par l’utilisateur afin de positionner une table ronde en 3D.        
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/c9d387bd-ba71-4166-8c1e-76769b111f6b" />      
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/4bc249ac-4ef2-46d8-9c12-c375a18695e3" />     
 
-Vous pouvez consulter mon code Godot si vous avez besoin de vous en inspirer :   
-[https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor](https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor)
+Vous pouvez consulter mon code Godot si vous avez besoin de vous en inspirer :     
+[https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor](https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor)   
 
-Je vous avoue que je me suis aidé de l’IA pour cette partie mathématique du code :
+Je vous avoue que je me suis aidé de l’IA pour cette partie mathématique du code :    
 ```gdscript
 class_name TriPointsRelocateTableExample
 extends Node
@@ -68,35 +68,35 @@ func get_circumcenter(a: Vector3, b: Vector3, c: Vector3) -> Vector3:
     return a + to_center
 ```
  
-Comme vous êtes en fin de formation Unity avant votre atelier 😉 :    
+Comme vous êtes en fin de formation Unity avant votre atelier 😉 :     
 <img width="498" height="283" alt="image" src="https://github.com/user-attachments/assets/4a3fc7a9-4cda-4189-a08e-34558c6d797f" />   
-Vous trouverez dans ce cours une checklist des étapes à comprendre et à pratiquer pendant ces deux jours.   
+Vous trouverez dans ce cours une checklist des étapes à comprendre et à pratiquer pendant ces deux jours.      
 
 ## Ressources
 
 Voici des pièces d’un jeu d’échecs :
-[<img width="816" height="333" alt="image" src="https://github.com/user-attachments/assets/b2d2229c-e3c7-466f-98c0-abde62333ef2" />](https://sketchfab.com/3d-models/chess-scene-pieces-blender-218776bed6144332ab41417badd5df6b)
-https://sketchfab.com/3d-models/chess-scene-pieces-blender-218776bed6144332ab41417badd5df6b
+[<img width="816" height="333" alt="image" src="https://github.com/user-attachments/assets/b2d2229c-e3c7-466f-98c0-abde62333ef2" />](https://sketchfab.com/3d-models/chess-scene-pieces-blender-218776bed6144332ab41417badd5df6b)    
+https://sketchfab.com/3d-models/chess-scene-pieces-blender-218776bed6144332ab41417badd5df6b   
 
-Et un plateau que je vous ai préparé pour l’occasion :
-[<img width="493" height="708" alt="image" src="https://github.com/user-attachments/assets/0527c7e6-3fb9-469a-8acc-ecf5205d88a2" />](https://github.com/EloiStree/2026_06_15_upm_hexa_chess)
+Et un plateau que je vous ai préparé pour l’occasion :   
+[<img width="493" height="708" alt="image" src="https://github.com/user-attachments/assets/0527c7e6-3fb9-469a-8acc-ecf5205d88a2" />](https://github.com/EloiStree/2026_06_15_upm_hexa_chess)     
 
-Téléchargement :
-* Unity : https://github.com/EloiStree/2026_06_15_upm_hexa_chess
-* Godot : https://github.com/EloiStree/2026_06_15_gdp_hexa_chess
+Téléchargement :  
+* Unity : https://github.com/EloiStree/2026_06_15_upm_hexa_chess   
+* Godot : https://github.com/EloiStree/2026_06_15_gdp_hexa_chess    
 
 
-Je vous ai dit que c’était une très mauvaise idée de faire un jeu multijoueur...  
-Cela n’a pas empêché un élève de vouloir réaliser un jeu VR multijoueur l’année passée.   
-Plutôt que de vous former en dehors de mes heures de cours, autant vous donner l’occasion de pratiquer.   
+Je vous ai dit que c’était une très mauvaise idée de faire un jeu multijoueur...     
+Cela n’a pas empêché un élève de vouloir réaliser un jeu VR multijoueur l’année passée.       
+Plutôt que de vous former en dehors de mes heures de cours, autant vous donner l’occasion de pratiquer.      
 
 Essayons avec Mirror de permettre le déplacement des pièces.   
-Et si vous allez trop vite, ajoutez un chronomètre.   
+Et si vous allez trop vite, ajoutez un chronomètre.     
 
-Nous pourrions utiliser le réseau multijoueur de Steam ou Photon, mais Mirror permet davantage d’indépendance.
+Nous pourrions utiliser le réseau multijoueur de Steam ou Photon, mais Mirror permet davantage d’indépendance.  
 
-Allons voir Mirror :   
-https://mirror-networking.com   
+Allons voir Mirror :     
+https://mirror-networking.com     
 
 ## Client fictif pour l’atelier
 
