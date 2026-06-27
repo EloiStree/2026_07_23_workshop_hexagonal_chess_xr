@@ -576,3 +576,278 @@ Il y a un outil avec Mirror pour et Unity Network pour test le multijoueur dans 
 ![alt text](image-71.png)
 
 C est la raison pour laquel je conseille de faire cette exercice a deux.
+
+
+-----------------
+
+I AM HERE
+
+-----------------
+
+
+https://mirror-networking.gitbook.io/docs/manual/components/network-transform
+![alt text](image-72.png)
+
+
+To make object grabbable by only a player in the game.
+We should use 
+```
+GetComponent<NetworkIdentity>()
+    .AssignClientAuthority(connectionToClient);
+```
+
+
+Essayons une fois un piece attrapee de donner l authoriter de la bouger a ce joueur
+
+![alt text](image-73.png)
+
+Il nous faut donc XR Interaction dans l assembly de notre outil.
+
+
+
+Creeons un script qui permet de reprendre le control d un object a bouger
+
+Vibed with experience 😜
+
+
+
+**Allows to notify an object is grabbed:**
+```cs
+
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.XR.Interaction.Toolkit;
+
+/// <summary>
+/// Emits UnityEvents when the referenced XRGrabInteractable is grabbed or released.
+/// Designed to be assigned by game designers in the Inspector.
+/// </summary>
+public class HexaChessMono_ListenToXRGrab : MonoBehaviour
+{
+    [Header("References")]
+    [Tooltip("The XR Grab Interactable component to listen to. If null, will try to find one on this GameObject.")]
+    [SerializeField] private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable;
+
+    [Header("Grab Events")]
+    [Tooltip("Fired when an interactor grabs the object.")]
+    [SerializeField] private UnityEvent onGrabbed;
+
+    [Tooltip("Fired when an interactor releases the object. Includes the interactor that released it.")]
+    [SerializeField] private UnityEvent<UnityEngine.XR.Interaction.Toolkit.Interactors.IXRSelectInteractor> onReleased;
+
+
+
+    [Tooltip("If true, will log debug messages when grab/release events fire.")]
+    [SerializeField] private bool debugLogs = false;
+
+   
+
+    #region Unity Lifecycle
+
+    private void OnEnable()
+    {
+        if (grabInteractable != null)
+        {
+            SubscribeToEvents();
+        }
+   
+    }
+
+    private void OnDisable()
+    {
+        UnsubscribeFromEvents();
+    }
+
+    #endregion
+
+    #region Event Subscription
+
+    private void SubscribeToEvents()
+    {
+        grabInteractable.selectEntered.AddListener(HandleSelectEntered);
+        grabInteractable.selectExited.AddListener(HandleSelectExited);
+    }
+
+    private void UnsubscribeFromEvents()
+    {
+        if (grabInteractable != null)
+        {
+            grabInteractable.selectEntered.RemoveListener(HandleSelectEntered);
+            grabInteractable.selectExited.RemoveListener(HandleSelectExited);
+        }
+    }
+
+    #endregion
+
+    #region Event Handlers
+
+    private void HandleSelectEntered(SelectEnterEventArgs args)
+    {
+        if (debugLogs)
+        {
+            Debug.Log($"[XRGrabEventEmitter] {gameObject.name} GRABBED by {args.interactorObject.transform.name}", this);
+        }
+
+        onGrabbed?.Invoke();
+    }
+
+    private void HandleSelectExited(SelectExitEventArgs args)
+    {
+        if (debugLogs)
+        {
+            Debug.Log($"[XRGrabEventEmitter] {gameObject.name} RELEASED by {args.interactorObject.transform.name}", this);
+        }
+
+        onReleased?.Invoke(args.interactorObject);
+    }
+
+    #endregion
+
+    #region Public Methods
+
+    /// <summary>
+    /// Manually re-subscribe to events (useful if grabInteractable is changed at runtime).
+    /// </summary>
+    public void RefreshSubscription()
+    {
+        UnsubscribeFromEvents();
+        if (grabInteractable != null)
+        {
+            SubscribeToEvents();
+        }
+    }
+
+    /// <summary>
+    /// Sets a new grab interactable and refreshes the subscription.
+    /// </summary>
+    /// <param name="newInteractable">The new XRGrabInteractable to listen to.</param>
+    public void SetGrabInteractable(UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable newInteractable)
+    {
+        UnsubscribeFromEvents();
+        grabInteractable = newInteractable;
+        if (grabInteractable != null)
+        {
+            SubscribeToEvents();
+        }
+    }
+
+    #endregion
+
+}
+```
+
+
+
+**Allow to claim the authority:**   
+
+```cs
+using System.Collections.Generic;
+using Mirror;
+using UnityEngine;
+
+public class HexaChessMirrorMono_ClaimAuthorityOfMoving : NetworkBehaviour
+{
+    [Header("Target Object")]
+    [SerializeField] private NetworkIdentity m_toAffect;
+
+    [SyncVar(hook = nameof(OnOwnerChanged))]
+    public uint currentOwnerNetId = 0;
+
+    private void Awake()
+    {
+        if (m_toAffect == null)
+            m_toAffect = GetComponent<NetworkIdentity>();
+    }
+
+    private void Start()
+    {
+        if (m_toAffect == null)
+        {
+            Debug.LogError($"[{gameObject.name}] m_toAffect is not assigned!", this);
+            return;
+        }
+    }
+
+    [Client]
+    public void OnInteracted()
+    {
+        ClaimAuthority();
+    }
+
+    public NetworkIdentity LookInSceneForLocalPlayer()
+    {
+        return NetworkClient.localPlayer;
+    }
+
+    [ContextMenu("Force Claim Authority")]
+    public void ClaimAuthority()
+    {
+        if (m_toAffect == null) return;
+
+        NetworkIdentity localPlayer = LookInSceneForLocalPlayer();
+        if (localPlayer == null)
+        {
+            Debug.LogWarning("ClaimAuthority: Could not find local player.");
+            return;
+        }
+
+        // Optional: prevent claiming if already owner
+        if (currentOwnerNetId == localPlayer.netId)
+        {
+            Debug.Log("Already own this piece.");
+            return;
+        }
+
+        ClaimAuthorityFromClientNetworkId(localPlayer.netId);
+    }
+
+    [Command(requiresAuthority = false)]
+    private void ClaimAuthorityFromClientNetworkId(uint playerNetId)
+    {
+        if (m_toAffect == null) return;
+
+        if (!NetworkServer.spawned.TryGetValue(playerNetId, out NetworkIdentity playerIdentity))
+        {
+            Debug.LogWarning($"ClaimAuthority: No player found with netId {playerNetId}.");
+            return;
+        }
+
+        NetworkConnectionToClient targetConnection = playerIdentity.connectionToClient;
+        if (targetConnection == null)
+        {
+            Debug.LogWarning($"ClaimAuthority: Player {playerNetId} has no client connection.");
+            return;
+        }
+
+        m_toAffect.RemoveClientAuthority();
+        m_toAffect.AssignClientAuthority(targetConnection);
+        currentOwnerNetId = playerNetId;   // SyncVar
+
+        Debug.Log($"[Server] Authority transferred to {playerNetId} for {m_toAffect.name}");
+    }
+
+    private void OnOwnerChanged(uint oldOwner, uint newOwner)
+    {
+        Debug.Log($"[Authority] Owner changed: {oldOwner} → {newOwner} | {m_toAffect?.name}");
+
+        // Optional: React here (enable/disable dragging, highlight, etc.)
+        bool isMine = newOwner == (NetworkClient.localPlayer?.netId ?? 0);
+        // e.g. GetComponent<Draggable>()?.SetInteractable(isMine);
+    }
+    /// <summary>
+    /// Returns true if the local client has authority over m_toAffect
+    /// </summary>
+    public bool HasAuthority()
+    {
+        if (m_toAffect == null) return false;
+
+        // Preferred way: check from a NetworkBehaviour on the target object
+        var nb = m_toAffect.GetComponent<NetworkBehaviour>();
+        if (nb != null)
+            return nb.isOwned;
+
+        // Fallback (less common)
+        return m_toAffect.isOwned; // NetworkIdentity also has isOwned in newer Mirror
+    }
+}
+```
