@@ -571,3 +571,8 @@ https://github.com/EloiStree/2025_01_12_pyhton_build_run_apk_broadcaster.git
 
 Il y a un outil avec Mirror pour et Unity Network pour test le multijoueur dans l editor. mais je skip.
 
+
+
+![alt text](image-71.png)
+
+C est la raison pour laquel je conseille de faire cette exercice a deux.
