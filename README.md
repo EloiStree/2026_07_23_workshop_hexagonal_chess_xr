@@ -127,3 +127,4 @@ Old Note:
 - https://github.com/EloiStree/2026_01_08_workshop_hello_job_in_xr
 - XInput Xbox Native https://github.com/EloiStree/2020_11_26_upm_xinput_dot_net
 - mqtt vr https://github.com/EloiStree/2019_06_23_unity_empty_start_mqtt_vr
+- lots of bullets https://github.com/EloiStree/2021_09_09_photo_ftl_planetary_bullets
