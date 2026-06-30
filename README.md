@@ -130,3 +130,4 @@ Old Note:
 - lots of bullets https://github.com/EloiStree/2021_09_09_photo_ftl_planetary_bullets
 - rotation to texture2d https://github.com/EloiStree/2022_06_06_upm_irregular_quadrilaterals_to_texture2d
 - https://github.com/EloiStree/CodeAndQuestsEveryDay
+- https://github.com/EloiStree/HelloTextByteInOutLayer
