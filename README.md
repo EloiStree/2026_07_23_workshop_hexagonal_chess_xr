@@ -125,3 +125,4 @@ Le but est d’apprendre à prototyper sous contrainte de temps.
 
 Old Note:
 - https://github.com/EloiStree/2026_01_08_workshop_hello_job_in_xr
+- XInput Xbox Native https://github.com/EloiStree/2020_11_26_upm_xinput_dot_net
