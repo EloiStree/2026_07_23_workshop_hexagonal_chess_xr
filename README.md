@@ -120,3 +120,8 @@ Le but est d’apprendre à prototyper sous contrainte de temps.
 
 
 
+
+---------
+
+Old Note:
+- https://github.com/EloiStree/2026_01_08_workshop_hello_job_in_xr
