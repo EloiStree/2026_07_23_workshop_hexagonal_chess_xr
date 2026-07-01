@@ -138,4 +138,4 @@ Old Note:
 - https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/CoolXR.md
 - https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/Pooling.md
 - https://github.com/EloiStree/HelloCoolXR/tree/main/Note
-- https://github.com/EloiStree/HelloThreePointsSetup
+- https://github.com/EloiStree/2025_03_24_workshop_hello_three_points
