@@ -139,3 +139,5 @@ Old Note:
 - https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/Pooling.md
 - https://github.com/EloiStree/HelloCoolXR/tree/main/Note
 - https://github.com/EloiStree/2025_03_24_workshop_hello_three_points
+
+- Kyber and XR; https://github.com/EloiStree/HelloKyberShadowXR/tree/main   
