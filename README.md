@@ -131,3 +131,11 @@ Old Note:
 - rotation to texture2d https://github.com/EloiStree/2022_06_06_upm_irregular_quadrilaterals_to_texture2d
 - https://github.com/EloiStree/CodeAndQuestsEveryDay
 - https://github.com/EloiStree/HelloTextByteInOutLayer
+
+
+
+- https://github.com/EloiStree/2024_07_03_workshop_mons_xr
+- https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/CoolXR.md
+- https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/Pooling.md
+- https://github.com/EloiStree/HelloCoolXR/tree/main/Note
+- https://github.com/EloiStree/HelloThreePointsSetup
