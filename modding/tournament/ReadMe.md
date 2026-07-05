@@ -37,6 +37,15 @@ Authentification
 
 
 
+Topic:
+
+- Invariante
+  - Player received message later with variation
+      - Package on the network choose the way
+      - Traffic on home and network delay the package
+      - Predire le prochain movement
+      - Corriger les mauvais prediction.
+
  -------
  
 # Modding
