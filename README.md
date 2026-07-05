@@ -120,3 +120,24 @@ Le but est d’apprendre à prototyper sous contrainte de temps.
 
 
 
+
+---------
+
+Old Note:
+- https://github.com/EloiStree/2026_01_08_workshop_hello_job_in_xr
+- XInput Xbox Native https://github.com/EloiStree/2020_11_26_upm_xinput_dot_net
+- mqtt vr https://github.com/EloiStree/2019_06_23_unity_empty_start_mqtt_vr
+- lots of bullets https://github.com/EloiStree/2021_09_09_photo_ftl_planetary_bullets
+- rotation to texture2d https://github.com/EloiStree/2022_06_06_upm_irregular_quadrilaterals_to_texture2d
+- https://github.com/EloiStree/CodeAndQuestsEveryDay
+- https://github.com/EloiStree/HelloTextByteInOutLayer
+
+
+
+- https://github.com/EloiStree/2024_07_03_workshop_mons_xr
+- https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/CoolXR.md
+- https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/Pooling.md
+- https://github.com/EloiStree/HelloCoolXR/tree/main/Note
+- https://github.com/EloiStree/2025_03_24_workshop_hello_three_points
+
+- Kyber and XR; https://github.com/EloiStree/HelloKyberShadowXR/tree/main   
