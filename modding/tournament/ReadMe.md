@@ -45,6 +45,8 @@ Topic:
       - Traffic on home and network delay the package
       - Predire le prochain movement
       - Corriger les mauvais prediction.
+      - On envoie pas les donnes 120 fois par seconds.
+        - Plus genre 10 fois. 
 
  -------
  
