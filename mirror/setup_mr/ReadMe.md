@@ -851,3 +851,47 @@ public class HexaChessMirrorMono_ClaimAuthorityOfMoving : NetworkBehaviour
     }
 }
 ```
+
+
+Tadam Si on pend pas en compte le repositionment et le resize du plateau on est bon.
+
+Ils nous reste a faire un prefab avec cela pour et un varian pour chaque piece.
+
+
+Un prefab absrait
+![alt text](image-74.png)
+
+
+![alt text](image-75.png)
+
+
+Prefab variant   
+![alt text](image-76.png)   
+
+![alt text](image-77.png)
+
+
+Et une fois les prefabs dupliquer placer et cropper niveau du collider.
+Cela nous donne ceci.
+![alt text](image-78.png)
+
+
+
+----------
+
+
+
+Hey hey we have now a VR Hexa Chess multiplayer.
+
+Instead of going direclty on sync on the real world.
+
+Let's create the timer to talk more about Mirror architecture.
+
+
+
+-------------------
+
+![alt text](image-79.png)
+
+![alt text](image-80.png)
+
