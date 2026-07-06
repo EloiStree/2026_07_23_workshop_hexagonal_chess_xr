@@ -40,22 +40,22 @@ https://mirror-networking.com
 
 # L'exercice
 
-
+[Introduction et checklist](introduction.md)
 
 # À vous de jouer 😉
 
-Comme vous êtes en fin de formation Unity avant votre atelier 😉 :   
-<img width="720" alt="image" src="https://github.com/user-attachments/assets/4a3fc7a9-4cda-4189-a08e-34558c6d797f" />   
-Vous trouverez dans ce cours une checklist des étapes à comprendre et à pratiquer pendant ces deux jours.   
+Comme vous êtes en fin de formation Unity avant votre atelier 😉 :     
+<img width="720" alt="image" src="https://github.com/user-attachments/assets/4a3fc7a9-4cda-4189-a08e-34558c6d797f" />     
+Vous trouverez dans ce cours une checklist des étapes à comprendre et à pratiquer pendant ces deux jours.      
 
 ---
 
 # Notes
 
-**TNET Chess** : [Unity TNET Git](https://github.com/EloiStree/2023_03_25_unity_dev_vs_wild_chill_chess)
-**Tutoriel Mirror** : [Vidéo](https://www.youtube.com/watch?v=oKf_EAU-ct4&t=533s)
-**Drone Soccer** : [Unity Mirror Git](https://github.com/EloiStree/2024_06_01_unity_hello_mirror_drone_soccer)
-**Vidéo** : https://youtu.be/L_VJgbrHmzw
+**TNET Chess** : [Unity TNET Git](https://github.com/EloiStree/2023_03_25_unity_dev_vs_wild_chill_chess)    
+**Tutoriel Mirror** : [Vidéo](https://www.youtube.com/watch?v=oKf_EAU-ct4&t=533s)   
+**Drone Soccer** : [Unity Mirror Git](https://github.com/EloiStree/2024_06_01_unity_hello_mirror_drone_soccer)   
+**Vidéo** : https://youtu.be/L_VJgbrHmzw    
 
 ---
 
@@ -69,7 +69,6 @@ Vous trouverez dans ce cours une checklist des étapes à comprendre et à prati
 * [Hello Code And Quest](https://github.com/EloiStree/CodeAndQuestsEveryDay)
 * [TBIO Layout](https://github.com/EloiStree/HelloTextByteInOutLayer)
 * [Hello Mons XR](https://github.com/EloiStree/2024_07_03_workshop_mons_xr)
-
   * [Cool XR Mons](https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/CoolXR.md), [Cool XR](https://github.com/EloiStree/HelloCoolXR/tree/main/Note)
   * [Pooling et Atlas](https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/Pooling.md)
 * [Hello Three Points](https://github.com/EloiStree/2025_03_24_workshop_hello_three_points)
