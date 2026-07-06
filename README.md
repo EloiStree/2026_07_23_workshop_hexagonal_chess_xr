@@ -5,9 +5,8 @@ Et que le Steam Frame est en approche.
 
 Regardons comment faire un jeu d'Echec Hexagonal ♟️ en Mirror.  
 
-Les laptops de la formation ne sont concu pour la VR.
-C est locasion de parler de ALVR/SteamVR
-
+Les laptops de la formation ne sont concu pour la VR.   
+C'est locasion de parler de [ALVR](https://github.com/EloiStree/HelloGodotXR/issues/76)/[SteamVR](https://github.com/EloiStree/HelloGodotXR/issues/75)
 
 ## Objectif
 
