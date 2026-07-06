@@ -35,14 +35,14 @@ Comme Vincent m'a dit qu'il préférait les jeux sur table ronde, montrez-moi qu
 ## Resource
 
 
-[<img width="720" alt="image" src="https://github.com/user-attachments/assets/b2d2229c-e3c7-466f-98c0-abde62333ef2" />](https://github.com/EloiStree/2026_06_15_upm_hexa_chess)      
-[<img width="720" alt="image" src="https://github.com/user-attachments/assets/0527c7e6-3fb9-469a-8acc-ecf5205d88a2" />](https://github.com/EloiStree/2026_06_15_upm_hexa_chess)        
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/b2d2229c-e3c7-466f-98c0-abde62333ef2" />](https://github.com/EloiStree/2026_06_15_upm_hexa_chess)        
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/0527c7e6-3fb9-469a-8acc-ecf5205d88a2" />](https://github.com/EloiStree/2026_06_15_upm_hexa_chess)          
 Téléchargement : [Unity 📦](https://github.com/EloiStree/2026_06_15_upm_hexa_chess), [Godot📦](https://github.com/EloiStree/2026_06_15_gdp_hexa_chess)        
 
 # Mirror
 
-[<img width="720" alt="image" src="https://github.com/user-attachments/assets/4fbf5bb1-73a8-414a-8959-ae4562242f2a" />](https://mirror-networking.com)
-
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/4fbf5bb1-73a8-414a-8959-ae4562242f2a" />](https://mirror-networking.com)   
+https://mirror-networking.com   
      
 
 
