@@ -1,9 +1,10 @@
 # Hexagonal Chess
 
-Comme j'ai vu que vous aimiez les échecs 😋,   
-et que le Steam Frame est en approche...   
+Comme j'ai vu que vous aimiez les échecs 😋,     
+et que le Steam Frame est en approche...     
 
-Regardons comment réaliser un jeu d'échecs hexagonal ♟️ avec HelloUnityMirror.   
+Regardons comment réaliser un jeu d'échecs hexagonal ♟️ multijoueur.  
+[Hello Unity Mirror](https://github.com/EloiStree/HelloUnityMirror)   
 
 Les laptops de la formation ne sont pas conçus pour la VR.    
 C'est l'occasion de parler de [ALVR](https://github.com/EloiStree/HelloGodotXR/issues/76) / [SteamVR](https://github.com/EloiStree/HelloGodotXR/issues/75).   
@@ -16,15 +17,15 @@ https://www.youtube.com/watch?v=NCeAVAVr2v4&t=102s
 
 ### Challenge A : Jouer sur la même table
 
-[<img width="941" alt="image" src="https://github.com/user-attachments/assets/829aadb9-5ba5-406b-9f8f-bf90e0df89a0" />](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint)
+[<img width="941" alt="image" src="https://github.com/user-attachments/assets/829aadb9-5ba5-406b-9f8f-bf90e0df89a0" />](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint)   
 
 Tutoriels :   
-[Setup XR 🔗](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/InstallUnityForXR), [Relocalisation 🔗](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint)
+[Setup XR 🔗](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/InstallUnityForXR), [Relocalisation 🔗](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint)   
 
 ### Challenge B : Jouer sur une table ronde
 
 [<img width="auto" alt="image" src="https://github.com/user-attachments/assets/4bc249ac-4ef2-46d8-9c12-c375a18695e3" />](https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor)   
-[Example Godot](https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor)    
+[Example Godot](https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor)      
 Comme Vincent m'a dit qu'il préférait les jeux sur table ronde, montrez-moi que vous avez compris le cours précédent 😉 en l'adaptant.  
 
 ## Ressources   
