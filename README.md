@@ -40,8 +40,10 @@ Comme Vincent m'a dit qu'il préférait les jeux sur table ronde, montrez-moi qu
 Téléchargement : [Unity 📦](https://github.com/EloiStree/2026_06_15_upm_hexa_chess), [Godot📦](https://github.com/EloiStree/2026_06_15_gdp_hexa_chess)        
 
 # Mirror
-   
-https://mirror-networking.com     
+
+[<img width="720" alt="image" src="https://github.com/user-attachments/assets/4fbf5bb1-73a8-414a-8959-ae4562242f2a" />](https://mirror-networking.com)
+
+     
 
 
 # A vous de jouer ;)
