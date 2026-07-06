@@ -47,7 +47,7 @@ https://mirror-networking.com
 
 Comme vous êtes en fin de formation Unity avant votre atelier 😉 :     
 <img width="720" alt="image" src="https://github.com/user-attachments/assets/4a3fc7a9-4cda-4189-a08e-34558c6d797f" />     
-Vous trouverez dans ce cours une checklist des étapes à comprendre et à pratiquer pendant ces deux jours.      
+
 
 ---
 
