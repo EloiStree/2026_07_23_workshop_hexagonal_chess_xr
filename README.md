@@ -1,14 +1,12 @@
 # Hexagonal Chess
 
-
 Comme j ai vu que vous aimiez les eches 😋.   
 Et que le Steam Frame est en approche.  
 
-Regardons comment faire un jeu d'Echec Hexagonnal ♟️ en Mirror.  
+Regardons comment faire un jeu d'Echec Hexagonal ♟️ en Mirror.  
 
-
-Comme nous allons faire de la VR et que les laptops de la formation ne sont concu pour la VR.  
-C est locasion d apprendre a utiliser ALVR avec SteamVR.
+Les laptops de la formation ne sont concu pour la VR.
+C est locasion de parler de ALVR/SteamVR
 
 
 ## Objectif
