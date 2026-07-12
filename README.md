@@ -1,3 +1,5 @@
+**Solution:** [Workshop](https://github.com/EloiStree/2026_07_23_workshop_hexagonal_chess_xr) - [Unity](https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror) - [Chess 3D](https://github.com/EloiStree/2026_06_15_upm_hexa_chess) - [Chess Miror](https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror)   
+
 # Hexagonal Chess
 
 Comme j'ai vu que vous aimiez les échecs 😋,     
