@@ -76,3 +76,11 @@ Comme vous êtes en fin de formation Unity avant votre atelier 😉 :
   * [Pooling et Atlas](https://github.com/EloiStree/2024_07_03_workshop_mons_xr/blob/main/Pooling.md)
 * [Hello Three Points](https://github.com/EloiStree/2025_03_24_workshop_hello_three_points)
 * [Kyber and XR](https://github.com/EloiStree/HelloKyberShadowXR/tree/main)
+
+---------
+
+Full Tutorial on RSA Mirror:   
+https://github.com/EloiStree/HelloUnityMirror/tree/main/video/mirror_and_rsa_workflow   
+
+
+
