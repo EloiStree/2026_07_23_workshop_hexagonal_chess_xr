@@ -17,18 +17,28 @@ C'est l'occasion de parler de [ALVR](https://github.com/EloiStree/HelloGodotXR/i
 [<img width="1298" alt="image" src="https://github.com/user-attachments/assets/6754aaea-7f16-4a51-96f0-885f386817bc" />](https://www.youtube.com/watch?v=NCeAVAVr2v4&t=102s)  
 https://www.youtube.com/watch?v=NCeAVAVr2v4&t=102s   
 
-### Challenge A : Jouer sur la même table
+### Challenge A : Sauver les positions par rapport au plateau
+
+Si on veut faire un jeu en réalité augmentée, il nous faudra un plateau redimensionnable et déplaçable.
+
+[<img width="1231" height="680" alt="image" src="https://github.com/user-attachments/assets/81934347-ae42-4c4a-8c23-2f1d5d7a1a95" />]
+(https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror/blob/1cc1d1c5a310f16a4280d4fc08ad1c8519e6af3b/Runtime/HexaChessMono_SyncLocalPositionFromAnchor.cs)
+Une solution: https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror/blob/1cc1d1c5a310f16a4280d4fc08ad1c8519e6af3b/Runtime/HexaChessMono_SyncLocalPositionFromAnchor.cs
+
+### Challenge B : Jouer sur la même table
 
 [<img width="941" alt="image" src="https://github.com/user-attachments/assets/829aadb9-5ba5-406b-9f8f-bf90e0df89a0" />](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint)   
 
 Tutoriels :   
 [Setup XR 🔗](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/InstallUnityForXR), [Relocalisation 🔗](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/Steps/RelocateSceneWithTwoPoint)   
 
-### Challenge B : Jouer sur une table ronde
+### Challenge C : Jouer sur une table ronde
 
 [<img width="auto" alt="image" src="https://github.com/user-attachments/assets/4bc249ac-4ef2-46d8-9c12-c375a18695e3" />](https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor)   
 [Example Godot](https://github.com/EloiStree/2026_06_13_gdp_three_points_xr_cursor)      
 Comme Vincent m'a dit qu'il préférait les jeux sur table ronde, montrez-moi que vous avez compris le cours précédent 😉 en l'adaptant.  
+
+
 
 ## Ressources   
 
