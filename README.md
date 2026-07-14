@@ -19,11 +19,10 @@ https://www.youtube.com/watch?v=NCeAVAVr2v4&t=102s
 
 ### Challenge A : Sauver les positions par rapport au plateau
 
-Si on veut faire un jeu en réalité augmentée, il nous faudra un plateau redimensionnable et déplaçable.
-
-[<img width="1231" height="680" alt="image" src="https://github.com/user-attachments/assets/81934347-ae42-4c4a-8c23-2f1d5d7a1a95" />]
-(https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror/blob/1cc1d1c5a310f16a4280d4fc08ad1c8519e6af3b/Runtime/HexaChessMono_SyncLocalPositionFromAnchor.cs)
-Une solution: https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror/blob/1cc1d1c5a310f16a4280d4fc08ad1c8519e6af3b/Runtime/HexaChessMono_SyncLocalPositionFromAnchor.cs
+Si on veut faire un jeu en réalité augmentée, il nous faudra un plateau redimensionnable et déplaçable.   
+[<img width="1231" height="680" alt="image" src="https://github.com/user-attachments/assets/81934347-ae42-4c4a-8c23-2f1d5d7a1a95" />](https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror/blob/1cc1d1c5a310f16a4280d4fc08ad1c8519e6af3b/Runtime/HexaChessMono_SyncLocalPositionFromAnchor.cs)   
+  
+Une solution: https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror/blob/1cc1d1c5a310f16a4280d4fc08ad1c8519e6af3b/Runtime/HexaChessMono_SyncLocalPositionFromAnchor.cs    
 
 ### Challenge B : Jouer sur la même table
 
