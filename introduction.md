@@ -3,11 +3,18 @@
 Comme on va faire du multijoueur et que tester la VR multijoueur seul, ce n'est pas simple.  
 Je vous propose de travailler en binôme avec Git sur le même projet.
 
-Rappel :
+Comme Vincent finira par faire un jeu de plateau en VR sur une table ronde un jour dans le futur.
+Le cours va avoir lieu sur son PC et celui de George comme binôme.
+
+_Rappel:_
+- Précédemment: https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/ 
 - Positionner un objet dans l'espace [->](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/blob/main/KISS/ReadMe.md)
 - Brush 3D de la pièce de Mons [->](https://github.com/EloiStree/2026_05_11_workshop_gaming_hello_xr/tree/main/3D)
 
 **Faire un jeu Steam VR avec ALVR :**
+
+> ALVR tourne bien sur des patates à faire griller.
+ 
 - Installer ALVR sur Windows.
 - Installer ALVR sur Quest 3 depuis le Store.
   - Installer ALVR et F-Droid depuis SCRCPY.
