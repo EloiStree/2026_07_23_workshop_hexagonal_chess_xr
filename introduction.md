@@ -15,10 +15,10 @@ _Rappel:_
 
 > ALVR tourne bien sur des patates à faire griller.
  
-- Installer ALVR sur Windows.
+- Installer SteamVR sur Steam. [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/000_install_steam_vr_on_window)
+- Installer ALVR sur Windows. [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/001_install_alvr_on_window)
 - Installer ALVR sur Quest 3 depuis le Store.
-  - Installer ALVR et F-Droid depuis SCRCPY.
-- Installer SteamVR sur Steam.
+  - Installer ALVR et F-Droid depuis SCRCPY [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/002_install_scrcpy_alvr_fdroid)
 - Créer un projet Unity VR sans Meta SDK.
 - Bonus : Parlons de Virtual Desktop.
 
