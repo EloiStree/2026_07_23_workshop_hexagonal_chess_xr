@@ -32,6 +32,7 @@ _Rappel:_
 - Désactiver les pare-feu.
   - Ouvrir un port sur votre machine ?
   - Ouvrir un port sur votre modem ?
+- Utiliser du PortFowarding 
 - Ajouter un serveur UDP avec un thread dans Unity.
   - C'est quoi un conflit avec le thread Unity ?
 - Envoyer un texte UDP à un ordinateur.
