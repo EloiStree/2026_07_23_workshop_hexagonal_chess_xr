@@ -92,12 +92,13 @@ _Rappel:_
 
 - Step by step pour la VR sur Steam avec ALVR [->](https://github.com/EloiStree/2026_07_23_workshop_hexagonal_chess_xr/blob/main/mirror/setup_mr/ReadMe.md)
 
-> **Note :** J'avais commencé avec le Meta SDK, puis j'ai eu des bugs XR ainsi que des problèmes avec la commande de ma machine Steam. J'ai donc continué sans.
->
-> Si vous ne vous souvenez plus des étapes avec Meta : Setup d'un projet Meta [->](https://github.com/EloiStree/2026_07_23_workshop_hexagonal_chess_xr/blob/main/mirror/setup_xr/ReadMe.md)
+> **Note :** J'avais commencé avec le Meta SDK, puis j'ai eu des bugs XR.
+> Et comme ma Steam Machine était en route. J'ai donc continué sans.
+> _Un petit step by step ,si vous ne vous souvenez plus des étapes avec Meta SDK: [->](https://github.com/EloiStree/2026_07_23_workshop_hexagonal_chess_xr/blob/main/mirror/setup_xr/ReadMe.md)_
 
 **Un jeu d'échecs en XR ?**
 
 > Comment j'ai fait en utilisant le plateau comme point de référence ?
 
 - Relocalisation [->](https://github.com/EloiStree/2026_07_23_workshop_hexagonal_chess_xr/tree/main/mirror/relocation)
+- Step by step [->](https://github.com/EloiStree/2026_07_23_workshop_hexagonal_chess_xr/blob/main/local_board_position/ReadMe.md) 
