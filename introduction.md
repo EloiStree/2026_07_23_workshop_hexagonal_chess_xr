@@ -23,7 +23,7 @@ _Rappel:_
 - Bonus : Parlons de Virtual Desktop. [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/004_use_virtual_desktop) 
 
 **Les bases du réseau multiplateforme et multi-engine :**
-- Ajouter la boîte à outils [Tick](https://github.com/EloiStree/2025_06_02_upm_tick_collection)
+- Ajouter la boîte à outils [Tick](https://github.com/EloiStree/2025_06_02_upm_tick_collection) et Mirror [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/005_empty_project_with_mirror_and_tick)
   - Ajouter un `Awake`, un `Enable` et un `Tick` toutes les N secondes pour les futurs tests.
 - Afficher une adresse publique.
 - Afficher une adresse locale.
