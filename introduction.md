@@ -19,8 +19,8 @@ _Rappel:_
 - Installer ALVR sur Windows. [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/001_install_alvr_on_window)
 - Installer ALVR sur Quest 3 depuis le Store.
   - Installer ALVR et F-Droid depuis SCRCPY [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/002_install_scrcpy_alvr_fdroid)
-- Créer un projet Unity VR sans Meta SDK.
-- Bonus : Parlons de Virtual Desktop.
+- Créer un projet Unity VR sans Meta SDK. [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/003_create_unity_open_xr_project)
+- Bonus : Parlons de Virtual Desktop. [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/004_use_virtual_desktop) 
 
 **Les bases du réseau multiplateforme et multi-engine :**
 - Ajouter la boîte à outils [Tick](https://github.com/EloiStree/2025_06_02_upm_tick_collection)
