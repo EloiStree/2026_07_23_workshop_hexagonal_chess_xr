@@ -25,8 +25,8 @@ _Rappel:_
 **Les bases du réseau multiplateforme et multi-engine :**
 - Ajouter la boîte à outils [Tick](https://github.com/EloiStree/2025_06_02_upm_tick_collection) et Mirror [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/005_empty_project_with_mirror_and_tick)
   - Ajouter un `Awake`, un `Enable` et un `Tick` toutes les N secondes pour les futurs tests.
-- Afficher une adresse publique.
-- Afficher une adresse locale.
+- Afficher une adresse publique. [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/006_display_public_and_local_ivp4)
+- Afficher une adresse locale [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/006_display_public_and_local_ivp4)
   - Retirer les IPv6.
   - Retirer les IPv4.
 - Désactiver les pare-feu.
