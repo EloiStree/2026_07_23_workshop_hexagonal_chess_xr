@@ -28,11 +28,14 @@ _Rappel:_
 - Afficher une adresse publique. [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/006_display_public_and_local_ivp4)
 - Afficher une adresse locale [->](https://github.com/EloiStree/HelloUnityMirror/tree/main/step_by_step/workshop_mons/006_display_public_and_local_ivp4)
   - Retirer les IPv6.
-  - Retirer les IPv4.
 - Désactiver les pare-feu.
-  - Ouvrir un port sur votre machine ?
-  - Ouvrir un port sur votre modem ?
-- Utiliser du PortFowarding 
+  - Ouvrir un port sur votre machine ? [->](https://www.youtube.com/results?search_query=comment+ouvrir+un+port+sur+window)
+  - Ouvrir un port sur votre modem ? 
+- Utiliser du PortFowarding ? 
+
+**Network pour les bourins**:
+_Je voulais voir cette section avec vous mais sur deux jours mais trop de matiere pour deux jours._
+_C'est mieux de rester focus sur Mirror_
 - Ajouter un serveur UDP avec un thread dans Unity.
   - C'est quoi un conflit avec le thread Unity ?
 - Envoyer un texte UDP à un ordinateur.
