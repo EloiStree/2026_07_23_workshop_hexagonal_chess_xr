@@ -1,5 +1,12 @@
 **Solution:** [Workshop](https://github.com/EloiStree/2026_07_23_workshop_hexagonal_chess_xr) - [Unity XR](https://github.com/EloiStree/2026_06_24_unity_hexa_chess_mirror) - [Chess 3D](https://github.com/EloiStree/2026_06_15_upm_hexa_chess) - [Chess Mirror](https://github.com/EloiStree/2026_06_26_upm_hexa_chess_mirror)   
 
+# Planning
+
+**Jeudi matin :** SteamVR + ALVR
+**Jeudi avant-midi :** Unity VR sans le Meta SDK
+**Jeudi après-midi :** Qu'est-ce que Mirror, sans VR ?
+**Vendredi :** Créons un jeu de plateau en VR sur le PC de Vincent.
+
 # Hexagonal Chess
 
 Comme j'ai vu que vous aimiez les échecs 😋,     
