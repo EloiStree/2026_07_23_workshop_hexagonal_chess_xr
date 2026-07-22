@@ -34,8 +34,8 @@ _Rappel:_
 - Utiliser du PortFowarding ? 
 
 **Network pour les bourins**:   
-_Je voulais voir cette section avec vous mais sur deux jours mais trop de matiere pour deux jours._   
-_C'est mieux de rester focus sur Mirror_   
+_Je voulais voir cette section avec vous mais sur deux jours..._     
+_C'est mieux de rester focus sur Mirror et la VR_   
 - Ajouter un serveur UDP avec un thread dans Unity.  
   - C'est quoi un conflit avec le thread Unity ?
 - Envoyer un texte UDP à un ordinateur.
