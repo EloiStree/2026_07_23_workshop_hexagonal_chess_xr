@@ -2,10 +2,10 @@
 
 # Planning
 
-**Jeudi matin :** SteamVR + ALVR
-**Jeudi avant-midi :** Unity VR sans le Meta SDK
-**Jeudi après-midi :** Qu'est-ce que Mirror, sans VR ?
-**Vendredi :** Créons un jeu de plateau en VR sur le PC de Vincent.
+**Jeudi matin :** SteamVR + ALVR  
+**Jeudi avant-midi :** Unity VR sans le Meta SDK  
+**Jeudi après-midi :** Qu'est-ce que Mirror, sans VR ?  
+**Vendredi :** Créons un jeu de plateau en VR sur le PC de Vincent.  
 
 # Hexagonal Chess
 
