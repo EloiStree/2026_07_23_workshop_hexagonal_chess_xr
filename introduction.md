@@ -33,10 +33,10 @@ _Rappel:_
   - Ouvrir un port sur votre modem ? 
 - Utiliser du PortFowarding ? 
 
-**Network pour les bourins**:
-_Je voulais voir cette section avec vous mais sur deux jours mais trop de matiere pour deux jours._
-_C'est mieux de rester focus sur Mirror_
-- Ajouter un serveur UDP avec un thread dans Unity.
+**Network pour les bourins**:   
+_Je voulais voir cette section avec vous mais sur deux jours mais trop de matiere pour deux jours._   
+_C'est mieux de rester focus sur Mirror_   
+- Ajouter un serveur UDP avec un thread dans Unity.  
   - C'est quoi un conflit avec le thread Unity ?
 - Envoyer un texte UDP à un ordinateur.
 - Envoyer un tableau de bytes en UDP à un ordinateur.
