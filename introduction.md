@@ -84,8 +84,8 @@ _C'est mieux de rester focus sur Mirror et la VR_
   - On passe cette partie, car on veut faire un jeu d'échecs en une journée.
 - **Objets de la scène avec un `NetworkIdentity`**
   - Afficher les propriétés du `NetworkIdentity` d'un objet de la scène.
-  - `[TransformSync]` si on veut un objet déplaçable.
-    - `[RigidBodySync]` si on veut des objets avec une physique mobile.
+  - `[NetworkTransform]` si on veut un objet déplaçable.
+    - `[NetworkRigidBody]` si on veut des objets avec une physique mobile.
   - Créer un script qui permet au joueur de `Claim` (prendre l'autorité) sur un objet du réseau.
     - Utiliser un `[Command(authority = false)]` pour demander au serveur, peu importe qui est le joueur.
     - Utiliser ... pour changer le propriétaire de l'objet.
