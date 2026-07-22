@@ -1,64 +1,67 @@
+## Ok, let's create a chess game.
 
-Ok want to create a chess game.
-One part is how to move the piece and how to see player in.
+One part is how to move the pieces and determine whose turn it is.
 
-The other is having a timer.
+The other part is having a timer.
 
+---
 
------------
-
-```
+```text
 🔹 Execution control attributes (where a method is allowed to run)
-[Server] → only runs on server, warns if called on client
-[ServerCallback] → only runs on server, no warning if client calls it
-[Client] → only runs on client, warns if called on server
-[ClientCallback] → only runs on client, no warning if server calls it
 
-🔹 Networking synchronization attributes (how data & calls travel between server/clients)
+[Server] → only runs on the server, warns if called on a client
+[ServerCallback] → only runs on the server, no warning if called on a client
+[Client] → only runs on a client, warns if called on the server
+[ClientCallback] → only runs on a client, no warning if called on the server
+
+🔹 Networking synchronization attributes (how data and calls travel between the server and clients)
 
 [Command] → client → server call
 [ClientRpc] → server → all clients call
 [TargetRpc] → server → one client call
-[SyncVar] → variable auto-syncs from server → clients
-[SyncObject] → collection auto-syncs from server → clients
+[SyncVar] → variable automatically syncs from the server → clients
+[SyncObject] → collection automatically syncs from the server → clients
 ```
 
-[More information](https://github.com/EloiStree/2024_06_01_unity_hello_mirror_drone_soccer/blob/main/README.md)    
+More information:
+https://github.com/EloiStree/2024_06_01_unity_hello_mirror_drone_soccer/blob/main/README.md
 
+---
 
+Ce que l'on veut, c'est un timer avec deux compteurs et un énumérateur indiquant **White** ou **Black**.
 
+Il nous faut donc un **NetworkIdentity** et un script qui hérite de **NetworkBehaviour**.
 
-Ce que lon veut cest un timer avec deux compteur.
-Et un enumerateur white wait black.
+Il possédera deux booléens et deux timers, chacun avec un **[SyncVar]**.
 
-il nous faut donc un NetworkIdentity et un script qui herite de NetworkMono.
-Il possedera deux booleans et deux timer avec un syncvar sur chaque.
+Le **`[SyncVar]`** est un attribut qui permet de modifier une donnée sur le serveur et de la synchroniser automatiquement avec tous les clients.
 
-Le `[SyncVar]` est un attribue qui permet de changer la donner sur le server et de la syncrhoniser chez les clients.
+Il nous faudra également des appels client pour demander au serveur d'effectuer certaines actions.
 
-Ils nous faudra donc des appelles client qui demande des choses au servers.
-C est ce que l on va faire avec les `[Command]`
+C'est ce que nous allons faire avec les **`[Command]`**.
 
-Des Unity Event permettrons de mettre a jour le visuel.
+Des **UnityEvents** permettront de mettre à jour le visuel.
 
-
-
+---
 
 ![alt text](image.png)
-https://sketchfab.com/3d-models/chess-digital-timer-game-clock-4b0d351d0ddc492db2bb4090d4d4f263   
 
+https://sketchfab.com/3d-models/chess-digital-timer-game-clock-4b0d351d0ddc492db2bb4090d4d4f263
 
-![alt text](image-1.png)   
-https://sketchfab.com/3d-models/chess-analog-timer-game-clock-cac9854daabc4126ac585417e6c0edb9    
+---
 
+![alt text](image-1.png)
 
+https://sketchfab.com/3d-models/chess-analog-timer-game-clock-cac9854daabc4126ac585417e6c0edb9
 
+---
 
-Comme on veut pas avoir un dependance avec TextMeshPro
-On va partir sur un timer a aiguille
+Comme on ne veut pas avoir de dépendance avec **TextMeshPro**, on va partir sur un timer à aiguilles.
 
-Il nous faut donc deux anchres a faire tourner sur l axe Y local.
-Ce code n a pas besoin d etre en reseau.
+Il nous faut donc deux aiguilles, chacune attachée à une ancre, qui tourneront sur leur axe **Y** local.
+
+Ce code n'a pas besoin d'être synchronisé sur le réseau.
+
 ![alt text](image-2.png)
 
 
@@ -102,11 +105,18 @@ public class HexaChessMono_RotatingClockRotation : MonoBehaviour
 ```
 
 
-Il nous faudra aussi un animaiton pour le boutton.
-En attendant, utilisons deux anchres
 
-We nee a button to display if the timer is on or off.
-And a temporary trigger to test it with any collision found.
+
+Il nous faudra aussi une **animation** pour le **bouton**.
+
+En attendant, utilisons deux **ancres**.
+
+We need a button to indicate whether the timer is **on** or **off**.
+
+For now, we'll use a temporary trigger that toggles the timer whenever a collision is detected.
+
+
+
 ![alt text](image-3.png)
 ```cs
 public class HexaChessMono_TimerPinOnOff : MonoBehaviour {
@@ -227,16 +237,15 @@ public class HexaChessMono_AnyCollisionEnterToUnityEvent : MonoBehaviour
 
 ```
 
-Noublie pas un petit rigidbody sur la main du joueur ou les bouttons
+N'oublie pas d'ajouter un petit **Rigidbody** sur la main du joueur ou sur les boutons.
+
 ![alt text](image-6.png)
 
+Plus qu'à raccorder le tout.
 
+Le trigger peut appeler une **`[Command]`** qui communiquera avec le serveur.
 
-Plus qu a racorder.
-
-Le trigger peu appeller un command qui parlera au sever
-
-Le server changera le timer et via les syncvar on aura un float sur le temp qu il reste.
+Le serveur mettra à jour le timer et, grâce aux **`[SyncVar]`**, tous les clients recevront automatiquement la valeur du temps restant sous forme de **float**.
 
 
 ![alt text](image-4.png)
@@ -360,13 +369,11 @@ public class HexaChessMirrorMono_TimerState : NetworkBehaviour
 
 
 
-Il nous reste un code qui permet de remettre les pieces en place.
-En liant les points de depart et le prefab mirror.
+Il nous reste à écrire un code qui permet de remettre les pièces en place en reliant les positions de départ au prefab Mirror.
+
+Par exemple :
 
 
-
-
-Par example
 ```cs
 
 using Mirror;

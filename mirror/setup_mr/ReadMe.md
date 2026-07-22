@@ -1,51 +1,55 @@
-I wanted to show how use Meta SKD but with Mirror.
-But the Meta Launcher was bugging. 
-Some DLL was missing.
-And some Meta Bug was present in the Meta Sample.
 
-As the Steam Frame and Steam machine is at the door.
+Je voulais montrer comment utiliser le Meta SDK mais avec Mirror.     
+Mais le Launcher Meta était buggé .    
+Quelques bugs Meta étaient présents dans l'exemple Meta.   
 
-It is the good time to speak about Steam VR / Steam Link and ALVR
+Comme le Steam Frame et la Steam machine sont à portée de main.   
+C'est le bon moment pour parler de Steam VR / Steam Link et d'ALVR.    
 
+Étant donné que Steam Link nécessite une bonne connexion Wi-Fi entre votre PC et le routeur… Nous verrons ALVR, mais si vous êtes chez vous, vous pouvez utiliser Steam Link avec le Wi-Fi.
 
-As Steam Link need a good Wifi router connection from your PC to the router... We will see ALVR but if you are at home you can use Steam Link with the wifi.
+ALVR peut être utilisé avec un câble ;)
 
-ALVR can be use from cable ;)
-
-
-The trade off is that we wont be able to do passthrough app on PC.
-
+Le compromis, c'est que nous ne pourrons pas faire d'applications en réalité mixte (passthrough) sur PC.
 
 ---------------
 
 
+Allons chercher la scene de demo sous Unity. MR si vous voulez allez vers de la realite augmentere. Et VR si vous voulez faire de la VR sans passthrough.
 ![alt text](image.png)
 
+On peut se faire un petit pause cafe... 😅
 ![alt text](image-1.png)
 
 
-https://docs.unity3d.com/Packages/com.unity.template.mixed-reality@2.2/manual/index.html
+Ou aller lire la doc de Mixed Reality   
+[![alt text](image-81.png)](https://docs.unity3d.com/Packages/com.unity.template.mixed-reality@2.2/manual/index.html)   
+https://docs.unity3d.com/Packages/com.unity.template.mixed-reality@2.2/manual/index.html   
 
 
 
+On peu aller checker que notre projet est bien configurer pour la VR et qu il n y a rien valider dans l auto correcteur.
 ![alt text](image-2.png)
 
 
+Switchions pour android pour le future build.
+(Apparement vous auvez aussi l option Meta Quest et Android XR maintenant)
 ![alt text](image-3.png)
 
 
 -------------------------
 
 
-
-
+Nous pouvons alle telecharger Steam (avec Link) et Steam VR    
 [![alt text](image-4.png)](https://youtu.be/DmDK-F8eoI4?t=41)     
 https://youtu.be/DmDK-F8eoI4?t=41  
 
 
+Un fois que lon a Stean, on peu aller charger ALVR qui nous permeettra d utiliser le quest avec steam.
 
-![alt text](image-5.png)
+[![alt text](image-5.png)](https://github.com/alvr-org/ALVR/releases/tag/v20.14.1)
 https://github.com/alvr-org/ALVR/releases/tag/v20.14.1
+
 
 
 ![alt text](image-6.png)
