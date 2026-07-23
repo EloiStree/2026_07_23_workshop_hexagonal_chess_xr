@@ -1,122 +1,156 @@
+Je voulais montrer comment utiliser le Meta SDK, mais avec Mirror.
 
-Je voulais montrer comment utiliser le Meta SDK mais avec Mirror.     
-Mais le Launcher Meta était buggé .    
-Quelques bugs Meta étaient présents dans l'exemple Meta.   
+Mais le Meta Launcher était buggé.
+Quelques bugs de Meta étaient également présents dans l'exemple fourni par Meta.
 
-Comme le Steam Frame et la Steam machine sont à portée de main.   
-C'est le bon moment pour parler de Steam VR / Steam Link et d'ALVR.    
+Comme le Steam Frame et la Steam Machine sont à portée de main, c'est le bon moment pour parler de SteamVR, Steam Link et d'ALVR.
 
-Étant donné que Steam Link nécessite une bonne connexion Wi-Fi entre votre PC et le routeur… Nous verrons ALVR, mais si vous êtes chez vous, vous pouvez utiliser Steam Link avec le Wi-Fi.
+Étant donné que Steam Link nécessite une bonne connexion Wi-Fi entre votre PC et votre routeur, nous verrons également ALVR. En revanche, si vous êtes chez vous avec un bon Wi-Fi, vous pouvez tout à fait utiliser Steam Link.
 
-ALVR peut être utilisé avec un câble ;)
+ALVR peut aussi être utilisé avec un câble. 😉
 
-Le compromis, c'est que nous ne pourrons pas faire d'applications en réalité mixte (passthrough) sur PC.
+Le compromis, c'est que nous ne pourrons pas créer d'applications en réalité mixte (passthrough) sur PC.
 
----------------
+---
 
+Allons récupérer la scène de démonstration sous Unity.
 
-Allons chercher la scene de demo sous Unity. MR si vous voulez allez vers de la realite augmentere. Et VR si vous voulez faire de la VR sans passthrough.
+Choisissez **MR** si vous voulez faire de la réalité mixte (ou vous orienter vers la réalité augmentée), et **VR** si vous souhaitez faire de la réalité virtuelle sans passthrough.
+
 ![alt text](image.png)
 
-On peut se faire un petit pause cafe... 😅
+On peut faire une petite pause café... 😅
+
 ![alt text](image-1.png)
 
+Ou aller lire la documentation de Mixed Reality.
 
-Ou aller lire la doc de Mixed Reality   
-[![alt text](image-81.png)](https://docs.unity3d.com/Packages/com.unity.template.mixed-reality@2.2/manual/index.html)   
-https://docs.unity3d.com/Packages/com.unity.template.mixed-reality@2.2/manual/index.html   
+[![alt text](image-81.png)](https://docs.unity3d.com/Packages/com.unity.template.mixed-reality@2.2/manual/index.html)
 
+https://docs.unity3d.com/Packages/com.unity.template.mixed-reality@2.2/manual/index.html
 
+On peut vérifier que notre projet est bien configuré pour la VR et qu'il n'y a rien de validé dans l'auto-correcteur.
 
-On peu aller checker que notre projet est bien configurer pour la VR et qu il n y a rien valider dans l auto correcteur.
 ![alt text](image-2.png)
 
+Passons ensuite sur Android pour le futur build.
 
-Switchions pour android pour le future build.
-(Apparement vous auvez aussi l option Meta Quest et Android XR maintenant)
+(Apparemment, vous avez aussi maintenant les options **Meta Quest** et **Android XR**.)
+
 ![alt text](image-3.png)
-
 
 -------------------------
 
+Nous pouvons aller télécharger Steam (avec Steam Link) ainsi que SteamVR.
 
-Nous pouvons alle telecharger Steam (avec Link) et Steam VR    
-[![alt text](image-4.png)](https://youtu.be/DmDK-F8eoI4?t=41)     
-https://youtu.be/DmDK-F8eoI4?t=41  
+[![alt text](image-4.png)](https://youtu.be/DmDK-F8eoI4?t=41)
+https://youtu.be/DmDK-F8eoI4?t=41
+Mais il vous faut une connection Wifi entre le PC et une connection cable au mdoels.
 
 
-Un fois que lon a Stean, on peu aller charger ALVR qui nous permeettra d utiliser le quest avec steam.
+
+
+
+Une fois que nous avons installé Steam, nous pouvons télécharger ALVR, qui nous permettra d'utiliser le Quest avec SteamVR.
 
 [![alt text](image-5.png)](https://github.com/alvr-org/ALVR/releases/tag/v20.14.1)
-https://github.com/alvr-org/ALVR/releases/tag/v20.14.1
 
+[https://github.com/alvr-org/ALVR/releases/tag/v20.14.1](https://github.com/alvr-org/ALVR/releases/tag/v20.14.1)
 
+Téléchargeons l'APK depuis GitHub.
 
 ![alt text](image-6.png)
 
+Lancez **Screen Copy**.
 
 ![alt text](image-7.png)
 
+Avec Screen Copy, on peut copier l'APK sur le Quest.
+Vous pouvez également utiliser **Developer Hub**.
 
 ![alt text](image-8.png)
 
+Pour trouver votre application, il faut aller dans le menu **Sources inconnues**.
+
 ![alt text](image-9.png)
+
+Puis chercher parmi les namespaces.
 
 ![alt text](image-10.png)
 
+Vous devriez avoir une interface comme celle-ci.
+
 ![alt text](image-11.png)
+
+Téléchargeons la version Windows d'ALVR depuis GitHub.
 
 ![alt text](image-12.png)
 
 ![alt text](image-13.png)
 
+Puis lançons l'exécutable (l'assistant d'installation).
+
 ![alt text](image-14.png)
+
+Il nous proposera gentiment d'ouvrir les ports de votre ordinateur.
 
 ![alt text](image-15.png)
 
+Voici à quoi ressemble ALVR : un menu permettant de lancer une connexion en Wi-Fi ou en câble, ainsi que d'initier SteamVR (avec un menu **Settings** et de nombreux boutons).
 
 ![alt text](image-16.png)
 
+Ce qui nous intéresse est une connexion câblée.
+Histoire de ne pas avoir huit connexions Steam en Wi-Fi dans la pièce.
 
 ![alt text](image-17.png)
 
+Lançons SteamVR.
 
 ![alt text](image-18.png)
 
+Puis allons voir ses préférences.
 
 ![alt text](image-19.png)
 
+C'est le bouton situé en haut à gauche.
 
 ![alt text](image-21.png)
 
+Nous cherchons à faire en sorte que Steam soit utilisé par défaut comme runtime OpenXR.
+
 ![alt text](image-20.png)
 
-Connect to the same wifi in case you want to use something else that cable
-
-
-
+N'oubliez pas de connecter votre casque et votre PC au même réseau Wi-Fi (pour ALVR, mais surtout pour votre futur jeu multijoueur).
 
 ![alt text](image-22.png)
 
+Une petite sauvegarde s'impose.
 
 ![alt text](image-23.png)
 
+Vérifiez que l'affichage des fichiers cachés et des extensions de fichiers est activé.
 
 ![alt text](image-24.png)
 
+Allons à la racine du projet avec un petit Git.
+
 ![alt text](image-25.png)
 
+Ajoutez le `.gitignore` si ce n'est pas déjà fait.
 
 ![alt text](image-26.png)
 
-
+Ouvrez un terminal de commande.
 
 ![alt text](image-27.png)
-cmd in window terminal
 
+`cmd` dans Windows Terminal.
 
-```init
-git add . 
+Puis effectuez un petit **add / commit / pull / push**.
+
+```bash
+git add .
 git status
 git commit -m "Project is SteamVR ready."
 git status
@@ -124,59 +158,89 @@ git pull
 git push
 ```
 
+![alt text](image-82.png)
+
+Sauvegardons la scène de démonstration (**Sample**) afin de conserver l'original si nécessaire.
 
 ![alt text](image-28.png)
 
+Je vous ai préparé, à partir de mon projet Godot, un **Hexa Chess** pour l'exercice.
 
-Less download the 3D model of the Hexa Chess I did for you:
-https://github.com/EloiStree/2026_06_15_gdp_hexa_chess
+[https://github.com/EloiStree/2026_06_15_gdp_hexa_chess](https://github.com/EloiStree/2026_06_15_gdp_hexa_chess)
 
 ![alt text](image-29.png)
-https://greenchess.net/rules.php?v=glinski
 
+Vous trouverez plus d'informations sur les règles du jeu ici :
 
+[https://greenchess.net/rules.php?v=glinski](https://greenchess.net/rules.php?v=glinski)
+
+Vous pouvez télécharger la texture et le modèle 3D ici :
 
 ![UV](hexa_chess_board_color_uv.png)
-Download: [OBJ](hexa_chess_board.obj) , [UV](hexa_chess_board_color_uv.png)
+
+Download: [OBJ](hexa_chess_board.obj), [UV](hexa_chess_board_color_uv.png)
+
+Sinon, je vous ai préparé un package sans Mirror ici :
+
+[https://github.com/EloiStree/2026_06_15_upm_hexa_chess](https://github.com/EloiStree/2026_06_15_upm_hexa_chess)
+
+Ajoutez un cube ainsi que le plateau, puis allons voir ce que cela donne.
+
+![alt text](image-30.png)
+
+![alt text](image-31.png)
+
+Pour publier, n'oubliez pas de donner un nom à votre application.
+
+![alt text](image-32.png)
+
+Activez l'exécution même lorsque l'application n'a pas le focus.
+
+![alt text](image-33.png)
+
+Changez le namespace (`pays.entreprise.application`).
+
+![alt text](image-34.png)
+
+Puis générez l'APK.
+
+![alt text](image-35.png)
+
+Enfin, **Attendre**.
+
+![alt text](image-36.png)
 
 
-You can check the Unity Package here:
-https://github.com/EloiStree/2026_06_15_upm_hexa_chess
 
-![alt text](image-30.png)   
-![alt text](image-31.png)  
-![alt text](image-32.png)   
-![alt text](image-33.png)   
-![alt text](image-34.png)  
-![alt text](image-35.png)  
-![alt text](image-36.png)     
+## Pour vous faire gagner du temps
 
+Pour vous faire gagner du temps, j'ai préparé un plateau avec des ancrages ainsi qu'un ou deux scripts.
 
-
-
-
------------
-
-Pour vous faire gagner du temps, j ai preparer un plateau avec des anchages et un ou deux scripts.
-```
+```bash
 git submodule add https://github.com/EloiStree/2026_06_15_upm_hexa_chess.git Packages/be.elab.hexachess
 ```
 
+Ou :
 
-Faire de prefab sans mirror de chaque piece avec la bonne taille.
+```bash
+git clone https://github.com/EloiStree/2026_06_15_upm_hexa_chess.git Packages/be.elab.hexachess
+```
+
+Créez un prefab (sans Mirror) pour chaque pièce, en veillant à utiliser la bonne taille.
+
 ![alt text](image-38.png)
 
----------------------
+---
 
-Let's try to build an apk.
+## Essayons de générer un APK
 
 ![alt text](image-37.png)
 
+---
 
+## Notre projet est prêt à passer en multijoueur
 
------------
-
-Ok our project is ready to be turn in multiplayer.
+Notre projet est maintenant prêt à être transformé en version multijoueur.
 
 ![alt text](image-39.png)
 
