@@ -67,6 +67,12 @@ Comme vous êtes en fin de formation Unity avant votre atelier 😉 :
 <img width="720" alt="image" src="https://github.com/user-attachments/assets/4a3fc7a9-4cda-4189-a08e-34558c6d797f" />     
 
 
+# Fan du RSA et ECC
+
+[<img width="1327" height="836" alt="image" src="https://github.com/user-attachments/assets/f2fb7016-cf9a-4561-87ae-9a1894a74f9b" />](https://github.com/EloiStree/HelloUnityMirror/tree/main/video/mirror_and_rsa_workflow)  
+https://github.com/EloiStree/HelloUnityMirror/tree/main/video/mirror_and_rsa_workflow   
+
+
 ---
 
 # Notes
@@ -94,9 +100,7 @@ Comme vous êtes en fin de formation Unity avant votre atelier 😉 :
 * [Kyber and XR](https://github.com/EloiStree/HelloKyberShadowXR/tree/main)
 
 ---------
-
-Full Tutorial on RSA Mirror:   
-https://github.com/EloiStree/HelloUnityMirror/tree/main/video/mirror_and_rsa_workflow   
+   
 
 
 
