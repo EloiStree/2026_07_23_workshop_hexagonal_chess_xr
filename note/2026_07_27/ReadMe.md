@@ -10,7 +10,9 @@
 - mDNS [no-ip](https://www.noip.com)
   - [IP](https://github.com/EloiStree/IP) on Git 
 - Grab and Claim
-- 
+
+- Rules Video : https://www.youtube.com/watch?v=bgR3yESAEVE
+- https://greenchess.net/rules.php?v=glinski
 
 https://github.com/EloiStree/2026_06_15_upm_hexa_chess
 
