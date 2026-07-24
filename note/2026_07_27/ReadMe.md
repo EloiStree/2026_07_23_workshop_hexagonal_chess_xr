@@ -137,3 +137,10 @@ public class HexaChessMono_ListenToXRGrab : MonoBehaviour
 }
 
 ```
+
+
+
+Version jouable APK et code:
+Phone: https://github.com/EloiStree/2026_06_24_unity_hexa_chess_mirror_phone/releases/tag/2026.7.13
+Quest: https://github.com/EloiStree/2026_06_24_unity_hexa_chess_mirror/releases
+
